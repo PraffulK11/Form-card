@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+    height: 728px;
+    margin-left: 500px;
+    gap: 25px;
+    opacity: 0px;
+    box-shadow: 0px 12px 36px 0px #0000001A;
+    border-radius: 40px;
+    background: #FFFFFF;
+
+
+}
+#card{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 650px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:mistyrose;
+    border-radius: 40px;
+    margin-top: 50px;
+    margin-left: 500px;
+    gap: 30px;
+    opacity: 0px;
+    box-shadow: 0px 12px 36px 0px #0000001A;
+    
+
+
+}
+input{
+    width: 360px;
+    height: 48px;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: 1px solid #E7EAEE;
+    background: #F7F8F9;
+   
+}
+button{
+    width: 360px;
+    height: 48px;
+    border-radius: 35px;
+    
+
+}
+#Sign{
+    background-color: #10B981;
+    color: #FFFFFF;
+    size:16px;
+    border: 1px solid #E7EAEE;
+    cursor: pointer;
+}
+/*#Google{
+    background-color: #191D23;
+    color:white;
+    border: 1px solid #E7EAEE;
+    
+    
+}*/
+
+label{
+    color: #4B5768;
+    
+}
+/*
+#or{
+    color: #64748B;
+
+}
+#login{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #10B981;
+    
+}
+#acc{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+
+}
+*/

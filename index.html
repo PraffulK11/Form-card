@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Page</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Create an Account</h1>
+        </div>
+         <div id="name">
+             <form onsubmit="show(event)">
+                <label for="fullName">Full Name</label><br>
+                <input type="text"  id="fullName" name="Full Name" placeholder="Enter Your Full Name" required>
+            </div>
+            <div id="email">
+                <label for="Email">Email</label><br>
+                <input type="email"  id="Email" name="Email" placeholder="Enter Your Email" required> 
+            </div>
+            <div id="password">
+                <label for="pwd">Password</label><br>
+                <input type="password"  id="pwd" name="Password" placeholder="Enter Your Password" required>
+                
+            </div>
+            <div id="phone">
+                <label for="phn">Phone Number</label><br>
+                <input type="tel"  id="phn" name="Phone Number" placeholder="Enter Your Phone" pattern="\d{10}" required>
+            </div>
+            <div id="btn-sign">
+                <button id="Sign">Submit</button>
+            </div>
+        </form>
+            <!-- <div id="btn-sign">
+                <button onclick="card()" id="Sign">Sign Up</button>
+            </div>
+            <div id="or">
+                OR
+            </div>
+            <div id="btn-google">
+                <button id="Google" >Sign up with Google</button>
+            </div>
+        -->
+        
+        <!--
+        <div id=exist>
+          <span id="acc">Already have an account?</span>
+          <span id="login">Login</span>
+          
+        </div>
+    -->
+
+    </div>
+
+    <div id=card>
+        <div id="NewHeader">
+            <h1>Account Info:</h1>
+        </div>
+        <div id="nm"> 
+            <p><strong>Name:</strong> <span id="userName"></span></p>
+        </div>
+        <div id="em">
+            <p><strong>Email:</strong> <span id="userEmail"></span></p>
+        </div>
+        <div id="pw">
+            <p><strong>Password:</strong> <span id="userPassword"></span></p>
+        </div>
+        <div id="ph">
+            <p><strong>Phone:</strong> <span id="userPhone"></span></p>
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
